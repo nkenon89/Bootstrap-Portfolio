@@ -1,0 +1,181 @@
+.body {
+    background: url(../images/background.png);
+}
+
+.container{
+    background-color: white;
+}
+
+/* Navigation */
+
+.nav-item {
+    border-radius: 1;
+    margin: 1rem;
+    background-color: inherit;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    border-radius: 1;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* H1 */
+
+.display-4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#override {
+    border-radius: 1;
+    background-color: #74c2b5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Saved Styles for Referrence */
+
+/* body {
+    background: url(../images/background.png);
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* Top Bar */
+
+/* .topbar {
+    background-color: white;
+    border-bottom: solid #a52d2d 1px;
+} */
+
+/* Logo/title */
+
+/* .logo {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #a52d2d;
+} */
+
+/* Navigation */
+
+/* .main-nav {
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+li {
+    color: #777777;
+    border-right: 1px solid #a52d2d;
+}
+
+li a {
+    color:#777777;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+li:last-child {
+    border: none;
+} */
+
+/* H2 */
+
+/* .secondary-header {
+    font-family: 'Ubuntu', sans-serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    border-bottom: solid #a52d2d 1px;
+} */
+
+/* footer */
+
+/* .footer {
+    height: 50px;
+    color: white;
+    background-color: #666;
+    font-family: 'Ubuntu', sans-serif;
+} */
+
+/* bio page */
+
+/* .bioimage {
+    width: 300px;
+    height: auto;
+    border: solid #333 3px;
+}
+
+
+.bio {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+} */
+
+/* contact form */
+
+/* .form {
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: white;
+
+}
+
+.textarea {
+    width: 500px;
+    height: 300px;
+    border: solid #333 1%;
+}
+
+.input {
+    width: 500px;
+    height: 25px;
+    border: solid #333 1%;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: solid #333 1px;
+    border-radius: 0;
+}
+
+.links {
+    color: #777777;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+
+} */
+
+/* Image Grid */
+
+/* .image1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    margin: 0px; 
+} */
+
+/* .label1 {
+    position: relative;
+    top: -120px;
+    width: 300px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #a52d2d; 
+    opacity: .8;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 5px
+
+} */
