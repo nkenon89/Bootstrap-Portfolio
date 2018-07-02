@@ -5,85 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../stylesheets/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="../stylesheets/custom.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
-<body>
+<body class="body">
 
-    <header class="topbar">
-        <div class="logo">
-            <h1>Portfolio:</h1>
-        </div>
+    <header>
 
-
-
-        <nav class="main-nav">
-            <ul>
-                <li>
-                    <a href="index.html">About Me</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <h1 class="text-white">Student</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Me
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
     </header>
 
-    <div class="main-content">
+    <div class="container">
 
-        <h2 class="secondary-header">Things I've Built:</h2>
+        <h4 class="pt-2 pl-2 mt-4">Things I've Built:</h4>
 
         </br>
 
         <!-- image grid 2x3 -->
 
-        <div class="grid">
+        <div class="row w-100 mx-auto">
 
-            <div class="image1">
-                <img src="../images/placeimg-tech1.jpg" alt="photo 1">
-                <div class="label1">
-                    <p>Calender App for iOS</p>
+
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech1.jpg" alt="photo 1">
+                <div class="col-xs ml-2">
+                    <h6>Calender App for iOS</h6>
                 </div>
             </div>
 
-            <div class="image2">
-                <img src="../images/placeimg-tech2.jpg" alt="photo 2">
-                <div class="label2">
-                    <p>Somthing Else</p>
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech2.jpg" alt="photo 2">
+                <div class="col-xs ml-2">
+                    <h6>Somthing Else</h6>
                 </div>
             </div>
 
-            <div class="image3">
-                <img src="../images/placeimg-tech3.jpg" alt="photo 3">
-                <div class="label3">
-                    <p>A Third Thing</p>
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech3.jpg" alt="photo 3">
+                <div class="col-xs ml-2">
+                    <h6>A Third Thing</h6>
                 </div>
             </div>
 
-            <div class="image4">
-                <img src="../images/placeimg-tech4.jpg" alt="photo 4">
-                <div class="label4">
-                    <p>Why Not One More?</p>
+
+        </div>
+
+        <div class="row w-100 mx-auto">
+
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech4.jpg" alt="photo 4">
+                <div class="col-xs ml-2">
+                    <h6>Why Not One More?</h6>
                 </div>
             </div>
 
-            <div class="image5">
-                <img src="../images/placeimg-tech5.jpg" alt="photo 5">
-                <div class="label5">
-                    <p>Nobody Cares</p>
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech5.jpg" alt="photo 5">
+                <div class="col-xs ml-2">
+                    <h6>Nobody Cares</h6>
                 </div>
             </div>
 
-            <div class="image6">
-                <img src="../images/placeimg-tech6.jpg" alt="photo 6">
-                <div class="label6">
-                    <p>Six Shooter</p>
+            <div class="col-xs ml-2">
+                <img class="fluid-img" src="../images/placeimg-tech6.jpg" alt="photo 6">
+                <div class="col-xs ml-2">
+                    <h6>Six Shooter</h6>
                 </div>
             </div>
 
@@ -91,10 +105,23 @@
 
     </div>
 
+    </div>
+
 
     <footer class="footer">
-        <p>&copy; Nick Stumpf - UNC Coding Bootcamp Class of 2018</p>
+        <div class="fixed-bottom bg-dark p-2 pt-2 text-white text-center" id="font-override">
+            <h5>&copy; Nick Stumpf - UNC Coding Bootcamp Class of 2018</h5>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
 
 </body>
 

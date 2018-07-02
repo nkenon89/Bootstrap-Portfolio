@@ -2,7 +2,7 @@
     background: url(../images/background.png);
 }
 
-.container{
+#whitebackground{
     background-color: white;
 }
 
@@ -19,18 +19,27 @@
     border-radius: 1;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
-/* H1 */
-
-.display-4 {
-    font-family: 'Ubuntu', sans-serif;
+.nav-link:hover {
+    color: #ac2626;
+    border: solid #ac2626 1px;
 }
 
 #override {
     border-radius: 1;
     background-color: #74c2b5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#font-override {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* H1 */
+
+.display-4 {
     font-family: 'Ubuntu', sans-serif;
 }
 
