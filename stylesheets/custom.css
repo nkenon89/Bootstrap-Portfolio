@@ -1,4 +1,4 @@
-.body {
+#customBackground {
     background: url(../images/background.png);
 }
 
@@ -8,7 +8,7 @@
 
 /* Navigation */
 
-.nav-item {
+/* .nav-item {
     border-radius: 1;
     margin: 1rem;
     background-color: inherit;
@@ -34,7 +34,7 @@
 
 #font-override {
     font-family: 'Ubuntu', sans-serif;
-}
+} */
 
 
 /* H1 */
