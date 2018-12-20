@@ -1,7 +1,88 @@
-.background {
-    background: url(../images/background.png);
+a {
+    text-decoration: none;
 }
 
-#whitebackground{
-    background-color: white;
+a:link {
+    text-decoration: none;
 }
+
+a:active {
+    text-decoration: none;
+}
+
+.background {
+    background: url(https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/experimental-paint-texture-8.jpg);
+}
+
+.customBorder {
+    border: solid, black 2px;
+    border-radius: 5px 50px 5px 50px;
+}
+
+.customBackgroundColor {
+    background-color: black;
+}
+
+.customBackgroundColor2 {
+    background-color: #1b69a1;
+}
+
+.customFont1 {
+    font-size: 3em;
+    font-family: 'Major Mono Display', monospace;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.customFont2 {
+    font-size: 5em;
+    font-family: 'Major Mono Display', monospace;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.customFont3 {
+    font-size: 2em;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.customFont4 {
+    font-size: 1.25em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.25); 
+}
+
+.active {
+    color: maroon;
+}
+
+.imgBorder {
+    border-radius: 50%;
+}
+
+.customFooter {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+/* .customImage {
+    margin-top: 10px;
+} */
+
+
+

@@ -6,16 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Major+Mono+Display|Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="../stylesheets/custom.css">
 </head>
 
 <body class="background">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-light customBackgroundColor">
         <div class="container">
-            <a class="navbar-brand text-white" href="#">Nick Stumpf - Bootstrap Potfolio</a>
+            <a href="#"><h1 class="navbar-brand text-white customFont1">Nick Stumpf</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,49 +23,46 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-white" href="../html/about.html">About</a>
+                        <a class="nav-link text-white customFont3 grow" href="../html/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../html/portfolio.html">Portfolio</a>
+                        <a class="nav-link text-white customFont3 grow" href="../html/portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../html/contact.html">Contact</a>
+                        <a class="nav-link text-white customFont3 grow" href="../html/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container" id="whitebackground">
-        <h4 class="pt-4 pl-4 mt-4">Life as a Robot</h4>
+    <div class="container customBackgroundColor customBorder">
+        <h2 class="customFont2 text-white pt-4 pl-4 mt-4">My Story</h2>
+
         <div class="row">
-            <div class="col-sm-6">
-                <img class="img-fluid p-4" src="https://cdn.supadupa.me/shop/2462/images/90736/il_fullxfull.194883770_massive.jpg?1323453680"
+            <div class="col-lg-4">
+                <img class="img-fluid p-4 imgBorder" src="../images/profile-pic.jpeg"
                     alt="photo of a student">
             </div>
 
-            <div class="col-sm-6">
-                <h4>This is where it began...</h4>
+            <div class="col-lg-8">
+                <h3 class="text-white customFont3">From Fit Pro to Git Pro</h3>
                 <hr>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum neque scelerisque, varius enim nec, porta
+                <p class="text-white"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum neque scelerisque, varius enim nec, porta
                     eros. Integer finibus laoreet elit. Mauris ultrices ipsum et risus convallis bibendum a vitae augue.
                     Proin erat arcu, tristique non blandit id, imperdiet eu nibh. Nunc ac vulputate urna, eget luctus nisi.
                     Integer molestie elit dolor. Suspendisse gravida accumsan posuere. Aliquam nec viverra ex, quis rutrum
                     quam. Phasellus faucibus quam nunc, sit amet placerat ex tempus ac. Nam ultrices arcu ante, et iaculis
                     orci euismod ac. Phasellus vel sodales enim. Vestibulum ornare dolor et tempus elementum.</p>
-                <p>Nullam at arcu vel libero condimentum lacinia. Quisque tristique vitae lorem id tincidunt. Duis placerat
-                    faucibus ante. Suspendisse potenti. Ut ut orci quis purus dapibus gravida ut at nisl. Quisque ac vehicula
-                    ligula, id mollis metus. Ut malesuada diam urna. Curabitur ut volutpat nisi, eget dapibus purus. Sed
-                    volutpat mi vitae lacus malesuada luctus. Aliquam bibendum lectus non scelerisque suscipit. Phasellus
-                    ullamcorper nulla ut congue faucibus.</p>
 
             </div>
 
         </div>
     </div>
 
-    <div class="container-fluid mt-4 bg-info text-center">
-        <p class="text-white">Nick Stumpf - UNC Coding Bootcamp Class of 2018</p>
+    <div class="customFooter fixed-bottom customBackgroundColor mt-4 text-center">
+        <a href="https://github.com/nkenon89"><img class="m-4" src="https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png" alt="github logo" height="40px" width="auto"></a>
+        <a href="https://www.linkedin.com/in/nick-stumpf-resume/"><img class="m-4" src="https://cdn3.iconfinder.com/data/icons/sociocons/256/linkedin-sociocon.png" alt="linked in logo" height="50px" width="auto"></a>
     </div>
 
     <!-- bootstrap js -->
