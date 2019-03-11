@@ -17,7 +17,7 @@ To-Do's
 [X] Fix link margins
 [ ] Smooth out animation effect on site title/name
 [ ] Wire up contact form
-[ ] Add accurate thumbnails
+[ ] Add accurate project thumbnails
 [ ] Make site mobile responsive
 [ ] "View code" links on portfolio page need to be wired up 
 [ ] Add content to about page
